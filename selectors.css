@@ -22,3 +22,32 @@ a.disabled {
 .active {
   background-color: yellow;
 }
+
+.parent div div {
+  color: blue;
+}
+
+.parent div:first-child {
+  color: red;
+}
+
+.parent div div + h4 {
+  background-color: blue;
+}
+
+.parent div:first-child + h4 {
+  background-color: red;
+}
+
+.grandparent > h4 {
+  border: 1px solid red;
+}
+
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+
+input {
+  height: 25px;
+}
